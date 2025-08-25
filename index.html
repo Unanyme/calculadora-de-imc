@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <h1>Calcule seu IMC</h1>
+
+    <section id = dados>
+
+        <div>
+            <input type="text" name="" id="inome" placeholder="Insira seu nome">
+            <label for=""></label>
+
+            <input type="number" name="peso" id="ipeso" placeholder="Insira seu Peso ex 85">
+            <label for=""></label>
+
+            <input type="number" name="altura" id="ialtura" placeholder="Insira sua altura ex: 175">
+            <label for=""></label>
+
+            <input id="botao" type="submit" value="Calcular" onclick="calcularIMC()">
+
+        </div>
+        <div id = res>
+            <img src="gordo-magro.png" alt="gordo ou magro?">
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
