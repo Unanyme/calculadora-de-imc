@@ -33,11 +33,27 @@ input {
     padding: 8px;       /* Deixa mais bonito */
 }
 
+input#botao {
+        
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+    }
+
+input#botao:hover {
+    background-color: red;
+    font-size: 1.1em;
+}    
+
+
 h1  {
     color: white;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
 }
 
 div#res {
@@ -74,6 +90,11 @@ div#res {
         color: white;
         border-radius: 5px;
     }
+
+    input#botao:hover {
+    background-color: red;
+    font-size: 1.1em;
+}   
 
     #res {
         font-size: 18px;
